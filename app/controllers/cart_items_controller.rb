@@ -11,4 +11,4 @@ class CartItemsController < ApplicationController
     redirect_to :back
   end
 
-end
+ end
