@@ -40,7 +40,8 @@ gem 'awesome_rails_console'
 gem 'letter_opener', group: :development
 gem 'aasm'
 gem 'figaro'
-
+gem 'carrierwave-qiniu'
+gem 'qiniu-rs'
 
 
 group :development, :test do
