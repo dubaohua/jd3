@@ -73,7 +73,7 @@ Rails.application.configure do
     user_name: ENV["SEND_CLOUD_USER_NAME"],
     password: ENV["SEND_CLOUD_USER_KEY"]
     }
-end
+
 
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
