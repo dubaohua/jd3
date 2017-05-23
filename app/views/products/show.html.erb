@@ -13,7 +13,7 @@
         <%= @product.description %>
       </p>
     </div>
-    <div> 修改这里修改为商品的数量 : <%= @product.quantity %> </div>
+    <div> 数量 : <%= @product.quantity %> </div>
     <div class="product-price"> ￥ <%= @product.price %> </div>
     <div class="pull-right">
       <% if @product.quantity.present? && @product.quantity > 0 %>
